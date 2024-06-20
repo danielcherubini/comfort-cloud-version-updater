@@ -1,0 +1,17 @@
+{
+  "name": "comfort-cloud-version-updater",
+  "version": "1.0.0",
+  "description": "Gets Comfort Cloud version and updates a gist",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.mjs"
+  },
+  "author": "Daniel Cherubini",
+  "license": "ISC",
+  "dependencies": {
+    "@octokit/rest": "^20.1.1",
+    "axios": "^1.7.2",
+    "google-play-scraper": "^10.0.0"
+  }
+}
